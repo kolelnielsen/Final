@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(0, 81, 128);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#header {
+    padding-top: 25px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 81, 128);
+    box-shadow: 0 8px 4px -4px rgba(0,0,0,.2);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+#navlist li {
+    list-style: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#profile {
+    padding-left: 130px;
+    padding-top: 10px;
+    max-width: 100%;
+    box-shadow: none;
+}
+
+.objective {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 45%;
+    font-size: 19px;
+    float: right;
+    padding-right: 70px;
+}
+#objective {
+    text-align: center;
+}
+
+.video {
+   text-align: center;
+}
+#seminary {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#blessings {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    padding-left: 25px;
+    text-align: justify;
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+.row{
+    font-size: 18px;
+}
+
+img {
+      box-shadow: 0 10px 6px -6px #777;
+}
+
+#container {
+    min-height: 100%;
+}
+#main {
+    overflow: auto;
+    padding-bottom: 60px;
+}
+
+#footer {
+    color: white;
+    background: rgb(0, 81, 128);
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+    clear: both;
+    text-align: center;
+}
+
+.quotes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prophet {
+    text-align: center;
+}
