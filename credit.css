@@ -1,0 +1,97 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background-color:rgba(255, 255, 0, 0.582);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#header {
+    padding-top: 25px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgba(255, 255, 0, 0.582);
+    box-shadow: 0 8px 4px -4px rgba(0,0,0,.2);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+#navlist li {
+    list-style: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.pf {
+    max-width: 100%;
+    padding-top: 15px;
+    float: right;
+    padding-right: 60px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 30px;
+}
+#intro {
+    font-size: 30px;
+}
+#requirements {
+    text-align: left;
+    padding-left: 300px;
+}
+#ctr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+}
+.ctr {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.center-justified {
+    text-align: justify;
+    margin: 0 auto;
+    width: 30em;
+}
+#center-justified {
+    text-align: justify;
+    margin: 0 auto;
+    width: 28em;
+}
+
+.graduation {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#footer {
+    color: black;
+    background: rgba(255, 255, 0, 0.582);
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+    clear: both;
+    text-align: center;
+}
